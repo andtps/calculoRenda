@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Soma valores</title>
+</head>
+<body>
+    <header>
+        <h1>CALCULE O SEU GASTO FIXO DO MÊS</h1>
+    </header>
+    <div class="formularioSoma">
+        <form id="form">
+            <div class="container">
+                <div class="casa-veiculos">
+                    <div class="casa">
+                        <input type="number" id="energia" placeholder="Energia">
+                        <input type="number" id="agua" placeholder="Água">
+                        <input type="number" id="gas" placeholder="Gás">
+                        <input type="number" id="feira" placeholder="Mercado">
+                        <input type="number" id="net" placeholder="Internet">
+                        <input type="number" id="telefone" placeholder="Plano de celular">
+                    </div>
+                    <div class="veiculos">
+                        <input type="number" id="parcelaCarro" placeholder="Parcela do carro">
+                        <input type="number" id="combustivel" placeholder="Gasolina">
+                        <input type="number" id="seguro" placeholder="Seguro Carro">
+                    </div>
+                </div>
+                <div class="submit">
+                    <button id="reset-button" type="reset">Limpar</button>
+                    <button id="submit-button" type="submit">Somar</button>
+                </div>
+                <div class="result">
+                    <p id="resultado">O meu gasto mensal é de:</p>
+                </div>
+                <div class="escola-cartao">
+                    <div class="escola">
+                        <input type="number" id="facul" placeholder="Faculdade">
+                        <input type="number" id="escola" placeholder="Escola">
+                        <input type="number" id="idioma" placeholder="Curso de idiomas">
+                    </div>
+                    <div class="cartao">
+                        <input type="number" id="cartao1" placeholder="Fatura Cartão Nubank">
+                        <input type="number" id="cartao2" placeholder="Fatura cartão WILL">
+                        <input type="number" id="cartao3" placeholder="Fatura cartão Neon">
+                        <input type="number" id="cartao4" placeholder="Fatura cartão Inter">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

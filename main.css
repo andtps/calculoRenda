@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    font-size: 16x;
+    margin-top: 20px;
+}
+
+body{
+    background-color: azure;
+}
+
+.veiculos, .escola, .cartao, .casa{
+    background-color: rgb(159, 243, 243);
+    padding: 20px;
+}
+
+.container{
+    height: 300px;
+    margin-top: 90px;
+    
+}
+
+.casa-veiculos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.casa, input{
+    display: flex;
+    flex-direction: column;
+}
+
+.veiculos, input{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.escola-cartao{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+p{
+    text-align: center;
+    padding: 10px;
+    height: 20px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit{ 
+    padding: 10px;
+    text-transform: uppercase;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+#reset-button{
+    margin-right: 5px;
+}
+
