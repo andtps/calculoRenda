@@ -21,8 +21,8 @@ body{
 }
 
 .container{
-    height: 300px;
-    margin-top: 90px;
+    height: 280px;
+    margin-top: 10px;
     
 }
 
@@ -54,6 +54,7 @@ input{
 
 
 p{
+    display: none;
     text-align: center;
     padding: 10px;
     height: 20px;
